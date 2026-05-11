@@ -14,19 +14,19 @@ The entire system is designed and tested in Proteus.
  Fully simulated in Proteus
 
 # Working Principle
-The DHT11 sensor continuously reads environmental data.
-The Arduino Uno processes this data.
-Two potentiometers allow real-time adjustment of:
-Temperature setpoint
-Humidity setpoint
-The LCD displays:
-Current Temperature (T)
-Current Humidity (H)
-Temperature Setpoint (TS)
-Humidity Setpoint (HS)
-If: Temperature > Setpoint → Relay ON → Fan ON
-If: Temperature or Humidity exceeds critical limit → Buzzer ON
-Otherwise: System remains in normal monitoring mode
+1. The DHT11 sensor continuously reads environmental data.
+2. The Arduino Uno processes this data.
+3. Two potentiometers allow real-time adjustment of:
+4. Temperature setpoint
+5. Humidity setpoint
+6. The LCD displays:
+7. Current Temperature (T)
+8. Current Humidity (H)
+9. Temperature Setpoint (TS)
+10. Humidity Setpoint (HS)
+11. If: Temperature > Setpoint → Relay ON → Fan ON
+12. If: Temperature or Humidity exceeds critical limit → Buzzer ON
+13. Otherwise: System remains in normal monitoring mode
 
 # Code Logic 
 Reads temperature & humidity using DHT11
