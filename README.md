@@ -29,21 +29,19 @@ The entire system is designed and tested in Proteus.
 13. Otherwise: System remains in normal monitoring mode
 
 # Code Logic 
-Reads temperature & humidity using DHT11
-Reads analog values from potentiometers
-Converts them into setpoints using map()
-Displays all values on LCD
-Compares real values with setpoints
-Controls:
-Relay (fan)
-Buzzer (alarm)
+1. Reads temperature & humidity using DHT11
+2. Reads analog values from potentiometers
+3. Converts them into setpoints using map()
+4. Displays all values on LCD
+5. Compares real values with setpoints
+6. Controls: Relay (fan) & Buzzer (alarm)
 
 # Applications
-Smart room climate control
-Greenhouse automation
-Server room monitoring
-Industrial environment control
-Home automation systems
+1. Smart room climate control
+2. Greenhouse automation
+3. Server room monitoring
+4. Industrial environment control
+5. Home automation systems
 
 # Conclusion
 This project demonstrates a complete embedded control system combining sensing, processing, display, and actuation. With real-time adjustable setpoints and safety alarms, it closely resembles practical industrial temperature control systems.
