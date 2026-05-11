@@ -28,6 +28,13 @@ The entire system is designed and tested in Proteus.
 12. If: Temperature or Humidity exceeds critical limit → Buzzer ON
 13. Otherwise: System remains in normal monitoring mode
 
+# Circuit Diagram
+<img width="1235" height="863" alt="Circuit" src="https://github.com/user-attachments/assets/40c5fb5c-ee1d-492f-99e1-f8c0fdb1ede8" />
+
+# Simulation Preview 
+<img width="1211" height="849" alt="Simulation" src="https://github.com/user-attachments/assets/43aa0fee-a70a-4678-a294-a7c91da77299" />
+
+
 # Code Logic 
 1. Reads temperature & humidity using DHT11
 2. Reads analog values from potentiometers
