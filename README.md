@@ -43,5 +43,12 @@ The entire system is designed and tested in Proteus.
 4. Industrial environment control
 5. Home automation systems
 
+## 🛠️ How to Run
+
+1. Open the project in Proteus
+2. Load the HEX file into Arduino
+3. Run simulation
+4. Adjust potentiometers to change setpoints
+   
 # Conclusion
 This project demonstrates a complete embedded control system combining sensing, processing, display, and actuation. With real-time adjustable setpoints and safety alarms, it closely resembles practical industrial temperature control systems.
